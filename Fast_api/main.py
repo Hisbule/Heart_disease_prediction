@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load(r"D:\Heart_disease_prediction\model\heart_model.joblib")
+model = joblib.load("model/heart_model.joblib")
 
 app = FastAPI()
 
