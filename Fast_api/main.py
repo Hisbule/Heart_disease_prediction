@@ -36,4 +36,4 @@ def predict(input_data: HeartDiseaseInput):
     # Predict (0 = no disease, 1 = disease)
     prediction = model.predict(features)[0]
 
-    return {"heart_disease": (prediction)}
+    return {"heart_disease": bool(prediction)}
