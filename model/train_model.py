@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 #  Load dataset (replace with your dataset file path)
-df = pd.read_csv("D:\Heart_disease_prediction\model\heart.csv")  
+df = pd.read_csv(r"D:\Heart_disease_prediction\model\heart.csv")  
 
 #  Split features and target
 X = df.drop("target", axis=1)   
