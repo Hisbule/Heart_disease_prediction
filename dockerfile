@@ -4,7 +4,7 @@ WORKDIR /app
 
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirments.txt
 
 COPY ./Fast_api ./Fast_api
 COPY ./model ./model
